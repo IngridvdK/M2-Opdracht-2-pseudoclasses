@@ -1,0 +1,59 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: darkblue;
+    padding: 10px;    
+}
+li a{
+    color: white;
+}
+ul {
+    list-style: none;
+}
+a:link {
+    text-decoration: none;
+}
+.link2 a:hover{
+    background-color: lightskyblue;
+    font-style: italic;
+    color: hotpink;
+}
+.link3 a:hover {
+    background-color: lightskyblue;
+    font-weight: bold;
+    color: mediumseagreen;
+}
+.link2 a:active {
+    color: red;
+    font-style: italic;
+}
+li, input {
+    display: inline;
+}
+.top-menu li ~ li {
+    margin: 30px;
+}
+.top-menu :first-child {
+    margin-right: 30px;
+}
+.search {
+    margin-left:30px;
+}
+.currentPage a {
+    background-color: rgb(170, 170, 214);
+    
+    color: black;
+}
+.currentPage a:hover {
+    color: green;
+    background-color: lightskyblue;
+    font-variant: small-caps;
+}
+input:focus {
+    border: 5px solid  aqua;
+}
